@@ -1,0 +1,26 @@
+# Synthetic routing nets for a quick FABO smoke test.
+
+PARAMETERS
+
+dbu_per_micron : 1000
+unit_resistance : 0.001 Ohm/dbu
+unit_capacitance : 1e-19 Farad/dbu
+driver_resistance : 25 Ohm
+
+NETS
+
+Net 0 smoke_4pin 4 -cap
+0 0 0 0
+1 120 20 1e-15
+2 90 100 1e-15
+3 20 80 1e-15
+
+Net 1 smoke_8pin 8 -cap
+0 0 0 0
+1 160 10 1e-15
+2 150 50 1e-15
+3 110 90 1e-15
+4 70 120 1e-15
+5 30 100 1e-15
+6 20 55 1e-15
+7 80 35 1e-15
