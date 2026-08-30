@@ -9,13 +9,8 @@ developed in:
 
 FABO starts from SALT-compatible shallow-light routing trees and jointly
 optimizes where groups of root-to-sink flows stop sharing their common support
-wires. A candidate is accepted only when the resulting tree is valid, preserves
-all terminal coordinates, satisfies the per-sink stretch bound, and improves
-measured wirelength.
+wires. 
 
-This public repository intentionally contains **only the FABO solver and
-reproduction utilities**. The agent framework used during algorithm discovery
-is outside the scope of this release.
 
 ## Repository layout
 
@@ -121,7 +116,7 @@ The evaluator checks every reported tree before its result is used:
 
 ## Third-party software
 
-Original FABO code is released under the [BSD 3-Clause License](LICENSE).
+FABO code is released under the [BSD 3-Clause License](LICENSE).
 FABO builds on the public SALT routing-tree implementation and embeds FLUTE;
 third-party components retain their own terms. FLUTE is distributed under its
 included Attribution Assurance License; see
