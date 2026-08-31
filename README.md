@@ -1,5 +1,12 @@
 # FABO
 
+> [!IMPORTANT]
+> This repository remains public to preserve the code URL cited by the
+> originally released FABO paper. The canonical, maintained repository is now
+> the [HKUST Zhiyao Group FABO repository](https://github.com/hkust-zhiyao/FABO).
+> Please use the official repository for the latest code, issues, and future
+> updates.
+
 This repository contains the algorithm release for **FABO (Flow-Aware
 Breakpoint Optimization)**, a timing-driven rectilinear routing-tree algorithm
 developed in:
